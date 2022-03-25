@@ -8,7 +8,7 @@ Download the github repo by doing `git clone https://github.com/THZoria/NX_Bot.g
 This bot requires Node JS version 16 and a good machine with at least 8GB of RAM
 You must install the node js modules by doing `"npm install -i"`.
 
-You must also add the token of your bot in the .env file.
+You must also add the token of your bot in the .env file and edit the `nxbrew.js` file in the `Commands\Hack\nxbrew.js` folder at line `143` (id_channel)
 
 The default prefix of the bot is `-`and search for a game you have to do `-nxbrew game name`.
 
