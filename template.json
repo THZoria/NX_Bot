@@ -1,0 +1,14 @@
+{
+    "GAME": [
+        {
+            "title": "Nom du jeu",
+            "region": "EUR and USA and JPN (Just one at a time)",
+            "author": "The author of the game",
+            "console": "3DS, Switch, PC",
+            "version": "The version of the game (on switch it is v0 for games and v1500 or more for updates",
+            "size": "The size of the game in MB or GB (1.25 GB, 500 MB)",
+            "download": ["Download link"],
+            "screenshots": "Game image",
+            "description": "A quick description of the game"
+        },
+      ],
