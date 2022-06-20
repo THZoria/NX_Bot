@@ -8,11 +8,21 @@ Download the github repo by doing `git clone https://github.com/THZoria/NX_Bot.g
 This bot requires Node JS version 16 and a good machine with at least 8GB of RAM
 You must install the node js modules by doing `"npm install -i"`.
 
-You must also add the token of your bot in the .env file and edit the `nxbrew.js` file in the `Commands\Hack\nxbrew.js` folder at line `143` (id_channel)
+Added the discord token in the `.env`
 
-The default prefix of the bot is `-`and search for a game you have to do `-nxbrew game name`.
+- NXBot now uses the slash control system imposed by discord to use the new API, for the used and search for a game you have to do `/nxbrew game name`.
+- You can also search for 3DS games with the command `/ghosteshop game name`.
+Also added the command `/cdn ame name`.
 
-![nxbot](https://user-images.githubusercontent.com/50277488/160104299-7dba49cb-312a-45da-8854-43749e50c96e.png)
+This command uses a json file that you have to host yourself, you can base it on the [template.json](https://github.com/THZoria/NX_Bot/blob/main/template.json) file and edited line 11 of the [cdn command](https://github.com/THZoria/NX_Bot/blob/main/commands/warez/CDN.js#L11)
+
+![nxbrew command](https://user-images.githubusercontent.com/50277488/174673960-86d3c01d-d370-459a-80e8-b7f2bd7f3b3c.png)
+
+![ghosteshop command](https://user-images.githubusercontent.com/50277488/174674114-c2bd3a4f-8a6d-4090-8c8b-e9a2cf33139b.png)
+
+![cdn command](https://user-images.githubusercontent.com/50277488/174674056-1213557c-4579-43e0-8c93-26b4850e4e13.png)
+
+
 
 # Licence
 
